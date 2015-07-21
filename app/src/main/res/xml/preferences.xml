@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:transitionName="Usuario SIP"
+        android:summary="Usuario para conexion SIP"
+        android:defaultValue=""
+        android:title="Usuario SIP"
+        android:key="username"
+        />
+    <EditTextPreference
+        android:transitionName="Dominio SIP"
+        android:summary="Dominio para conexion SIP"
+        android:defaultValue=""
+        android:title="Dominio SIP"
+        android:key="domain"/>
+    <EditTextPreference
+        android:transitionName="Contraseña SIP"
+        android:summary="Contraseña para conexion SIP"
+        android:defaultValue=""
+        android:title="Contraseña SIP"
+        android:key="password"
+        android:password="true"
+        />
+</PreferenceScreen>

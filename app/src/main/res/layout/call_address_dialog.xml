@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/calladdress_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Numero de contacto"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <EditText
+        android:id="@+id/calladdress_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>
